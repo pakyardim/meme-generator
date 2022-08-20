@@ -5,8 +5,10 @@ const Header = () => {
 
     return(
         <header>
-            <h2>Meme Generator</h2>
-            <h3>By Emirhan baby woho</h3>
+            <div className="header--div">
+                <h2 className="header--title">Meme Generator</h2>
+                <h3 className="header--project">React Project by Emirhan</h3>
+            </div>
         </header>
     )
 }
